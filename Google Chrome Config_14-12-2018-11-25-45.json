@@ -1,0 +1,71 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "50a31417-0167-40b3-9f48-1f99ca041d7e",
+    "lastModifiedDateTime":  "2018-12-14T10:25:26.1050475Z",
+    "roleScopeTagIds":  [
+
+                        ],
+    "supportsScopeTags":  true,
+    "createdDateTime":  "2018-09-13T12:52:01.3293612Z",
+    "description":  "",
+    "displayName":  "Google Chrome Config",
+    "version":  21,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Show Home Button",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome/ShowHomeButton",
+                            "value":  "\u003cenabled/\u003e"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "ExtensionForcelist",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist",
+                            "value":  "\u003cenabled/\u003e\n\u003cdata id=\"ExtensionInstallForcelistDesc\" value=\"1\u0026#xF000;bkbeeeffjjeopflfhgeknacdieedcoml;https://clients2.google.com/service/update2/crx\u0026#xF000;2\u0026#xF000;ppnbnpeolgkicgegkbkbjmhlideopiji;https://clients2.google.com/service/update2/crx\"/\u003e\n"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "DisableCloudSync",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome/SyncDisabled",
+                            "value":  "\u003cenabled/\u003e"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Disable Password Manager",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~PasswordManager/PasswordManagerEnabled",
+                            "value":  "\u003cdisabled/\u003e"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "ExtensionBlacklist",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallBlacklist",
+                            "value":  "\u003cenabled/\u003e\n\u003cdata id=\"ExtensionInstallBlacklistDesc\" \nvalue=\"1\u0026#xF000;*\"/\u003e"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "ExtensionWhitelist",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallWhitelist",
+                            "value":  "\u003cenabled/\u003e\n\u003cdata id=\"ExtensionInstallWhitelistDesc\" \nvalue=\"1\u0026#xF000;bkbeeeffjjeopflfhgeknacdieedcoml\u0026#xF000;2\u0026#xF000;ppnbnpeolgkicgegkbkbjmhlideopiji\"/\u003e"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "HomePageLocation",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~HomePage/HomePageLocation",
+                            "value":  "\u003cenabled/\u003e\n\u003cdata id=\"HomepageLocation\" value=\"Https://ccmexec.com\"/\u003e\n"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "HomePageTab",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~HomePage/HomepageIsNewTabPage",
+                            "value":  "\u003cdisabled/\u003e"
+                        }
+                    ]
+}
